@@ -14,10 +14,7 @@ const CardDisplay = () => {
 
   return (
     <>
-      <div className="card-display">
-
-      </div>
-      <div className="card-form">
+      <div>
         <form>
           <select value={game} onChange={(e) => setGame(e.target.value)}>
             <option value="faeria">Faeria</option>
