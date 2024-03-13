@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Card Creator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## User Story
+```
+AS a game enthusiast, 
+I WANT to be able to design my own cards for the games that I enjoy playing
+SO THAT I can easily create official looking cards and easily download them to share with others.
+```
+## Acceptance Criteria
+```
+GIVEN a card creator web application: 
 
-## Available Scripts
+WHEN I am on the landing page, 
+THEN I see a welcome page explaining the site (briefly) and I see each possible card game that the site can make as tabs in the navbar. 
 
-In the project directory, you can run:
+WHEN I click on a game tab, 
+THEN it will bring me to that game's card creator page. 
 
-### `npm start`
+WHEN I have designed a card,
+THEN I will be able to download the card to save on my computer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Motivation
+I have always enjoyed playing board games and video games, and found a particular love of collectible card games with a board element. This started with [Scrolls](https://mojang.github.io/CallersBaneSiteArchive/) (now known as Callers Bane), followed by [Faeria](https://www.faeria.com/). I enjoyed thinking of my own designs for the game and sharing my created content with the community. And so, I decided to make a card creator, starting with Faeria cards, with the intention to break out into other games, particularly any niche games for gaming communities that may not have access to tools to create their own cards.

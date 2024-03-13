@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FaeriaCanvas from "../canvas/FaeriaCanvas";
 
 const Faeria = () => {
   const [title, setTitle] = useState("");
@@ -15,6 +16,7 @@ const Faeria = () => {
       <div className="card-page">
         <div className="card-display">
           <h2>See the card changes</h2>
+          <FaeriaCanvas width="200" height="300" />
           <p>{title}</p>
           <p>{cardColor}</p>
           <p>{type}</p>
